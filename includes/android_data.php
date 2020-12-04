@@ -11,7 +11,7 @@ if($read_all_user->num_rows >0){
             $data_users[] = $rows;
         }
         // required headers
-header("Access-Control-Allow-Origin: http://192.168.50.4/android_crud_mysql/");
+header("Access-Control-Allow-Origin: http://192.168.50.146/android_crud_mysql/");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");

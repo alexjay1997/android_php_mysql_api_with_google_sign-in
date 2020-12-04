@@ -9,7 +9,7 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <style>
         body{
-            background-image:url('img/bg.png');
+           
             background-size:cover;
             background-repeat:no-repeat;
 

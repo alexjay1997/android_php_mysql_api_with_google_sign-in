@@ -47,7 +47,7 @@ public class Layout2 extends AppCompatActivity {
 
     GoogleSignInClient mGoogleSignInClient;
 
-    String insertUrl= "http://192.168.50.4/android_crud_mysql/functions/create.php?";
+    String insertUrl= "http://192.168.50.146/android_crud_mysql/functions/create.php?";
 
 
     @Override
@@ -59,6 +59,7 @@ public class Layout2 extends AppCompatActivity {
 
         tokenTextView = findViewById(R.id.get_token_TextView);
         tokenTextView.setText(TokenData);
+
         // Configure sign-in to request the user's ID, email address, and basic
 // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)

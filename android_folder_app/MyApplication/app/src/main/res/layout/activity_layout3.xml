@@ -25,32 +25,6 @@
 
     </ListView>
 
-    <TextView
-        android:id="@+id/textView_show_fullname"
-        android:layout_width="312dp"
-        android:layout_height="117dp"
-        android:layout_weight="1"
-        android:text="" />
 
-    <TextView
-        android:id="@+id/textView_show_id"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textView_show_username"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textView_show_password"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="" />
 
 </LinearLayout>

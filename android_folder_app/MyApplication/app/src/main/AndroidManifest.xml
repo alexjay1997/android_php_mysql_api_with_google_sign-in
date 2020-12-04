@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Update_user"></activity>
+        <activity android:name=".View_Layout"></activity>
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -28,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Edit" />
     </application>
 
 </manifest>
